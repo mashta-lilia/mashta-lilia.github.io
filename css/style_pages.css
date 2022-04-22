@@ -1,0 +1,101 @@
+* 
+{
+margin: 0; 
+padding: 0;
+}
+
+body 
+{
+background: rgb(81, 147, 223); 
+font-family: "Bookman Old Style", serif;
+background-attachment: fixed;
+
+}
+.news
+{
+	width: 1000px;
+	margin: 50px auto;
+	border-radius: 2px;
+	background:rgb(130, 201, 248);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.news_img img
+{
+	width: 100%;
+}
+/*стили блока галерея*/
+.news_title
+{
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2pt;
+	word-spacing: 1.8pt;
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+.news_content 
+{
+	
+	font-size: 16px;
+	font-variant: small-caps;
+	text-align: justify;
+	letter-spacing: 0pt;
+	word-spacing: 1.8pt;
+	padding: 10px;
+}
+.news_content p,h1
+{
+	padding: 10px;
+}
+#goBack
+{
+	width: 150px;
+	height: 30px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	position:relative;
+	top: 10px;
+	margin: auto;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-size: 18pt;
+	padding: 15px;
+
+}
+#goBack a
+{
+	text-decoration: none;
+	color:black;
+}
+#goBack:hover
+{
+	background-color: lightblue;
+}
+.news_begin
+{
+	font-size: 10px;
+	font-variant: small-caps;
+	letter-spacing: 0pt;
+	word-spacing: 1.8pt;
+	color:#000000;
+	padding: 10px;
+}
+.news_begin a
+{
+	text-decoration: none;
+	color:#1100fd;
+}
+.news_begin a:hover
+{
+	color:black;
+}
+h1{
+	text-align: center;
+}
+p{
+	font-family: monospace;
+}
+
+

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url(../img/backgr/backgr.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+
+}
+.content{
+    width: 1000px;
+    margin: 50px auto;
+    background: transparent;
+}
+.preview{
+    width: 250px;
+    height: 168px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding: 10px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2pt;
+    letter-spacing: 1.8pt;
+}

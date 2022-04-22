@@ -1,0 +1,36 @@
+
+html{
+
+    background-image: url(../img/backgr/backgr.jpg) ;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: right bottom;
+    background-attachment: fixed;
+    
+}
+audio{
+    display: inline-block;
+    position: right;
+}
+.content{
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.film{
+    display: inline-block; 
+}
+img{
+   display: block;
+   align-content: center;
+}
+.music{
+    vertical-align: top;
+    margin-left: 40px;
+    display: inline-block;
+}
+a{
+    align-self: center;
+    
+}
